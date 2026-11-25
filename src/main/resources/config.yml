@@ -45,5 +45,5 @@ ban:
   detik: 15              # lama ban saat mati (0 = tanpa ban)
 
 duduk:
-  aktif: true            # klik kanan tangga (tangan kosong, tanpa sneak) untuk duduk
+  aktif: false           # dimatikan karena server sudah punya GSit. Ubah ke true kalau GSit dihapus
   y-offset: 0.0          # naik/turunkan posisi duduk kalau kurang pas

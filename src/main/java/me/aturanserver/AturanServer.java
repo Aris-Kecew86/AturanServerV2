@@ -259,7 +259,7 @@ public final class AturanServer extends JavaPlugin implements Listener {
     }
 
     private boolean duduk(Player p, Block b) {
-        if (!getConfig().getBoolean("duduk.aktif", true)) {
+        if (!getConfig().getBoolean("duduk.aktif", false)) {
             return false;
         }
         if (!(b.getBlockData() instanceof Stairs stairs)) {

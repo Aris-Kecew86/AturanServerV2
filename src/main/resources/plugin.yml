@@ -1,7 +1,7 @@
 name: AturanServer
 version: '1.0.0'
 main: me.aturanserver.AturanServer
-api-version: '1.21'
+api-version: '26.1'
 description: World border, End nonaktif, nametag hilang, chat nonaktif, hard permanen, duduk, teleport acak, ban saat mati
 commands:
   chat:
